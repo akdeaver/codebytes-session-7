@@ -35,6 +35,7 @@ def add(*numbers):
             return result
 
 #Part 4
+#Additional operations and Error out if invalid operation is entered
 def operation(string, num1, num2):
     if string == "subtract":
         result = num1 - num2
@@ -47,4 +48,3 @@ def operation(string, num1, num2):
         return result
     else:
         raise TypeError('not a valid operation')
-        
